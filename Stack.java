@@ -40,7 +40,7 @@ class Stack1 extends Stack {
         System.out.println("the array of size " + size + " is created.");
     }
 
-    int stack[] = new int[5];
+    int stack[] = new int[size];
 
     void push() {
         if (top ==size-1)
